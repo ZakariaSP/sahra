@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahara Tourism</title>
+   
+  <link rel="icon" href="data:image/png;base64,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"/>
+  
+  <style>
+       .title_class{
+            background: rgb(198, 141, 252);
+          
+        }
+      #content{
+          background: lightgray ;
+          width: 1300px;
+          margin: auto;
+      }
+      nav{
+          background: burlywood;
+          width: 380px;
+          height:200px;
+          float: left;
+          margin: 10px;
+      }
+      header{
+          background: rgb(151, 200, 255);
+          width: 880px;
+          height:200px;
+          float: right;
+          margin: 10px;
+      }
+     aside{
+          background: lightslategrey;
+          width: 380px;
+          height:1200px;
+          float: left;
+          margin: 10px;
+      }
+      main{
+          background: lightgray;
+          width: 880px;
+          height:1260px;
+          float: right;
+          margin: 10px;
+      }
+      main article{
+          background: lightgoldenrodyellow;
+          width: 870px;
+          height:380px;
+          margin: 10px;
+         
+      }
+      footer{
+          background: khaki;
+          width: 1300px;
+          height:250px;
+          clear: both;
+         
+      }
+      meter{
+            height: 30px;
+            width: 200px;
+        }
+      
+  </style>
+</head>
+<body >
+     
+    <div id="content">
+
+ <nav>
+    
+     <center>
+        <hr style="background:black; height: 1px;  border:0"/>
+       <h3 style="margin: 0px; background: orange ; ">WELCOME TO SAHARA !</h3>
+       <hr style="background:black; height: 1px;  border:0"/>
+        <video src="Desert.mp4"  poster="sahara.jpg" width="100%" height="150" controls></video>
+        <hr style="background:black; height: 1px;  border:0"/>
+       <!-- style="object-fit: cover;" لتوضيح الصورة بشكل جيد أو لتقريبها-->
+</center>
+
+ </nav> 
+ 
+ <header>
+       <center>
+        <hr style="background: crimson; height: 2px;  border:0"/>
+        <h3 style="margin: 0px; background: rgb(198, 141, 252); ">SAHARA TOURISM</h3>    
+        <hr style="background :crimson; height: 2px;  border:0"/>
+    </center>
+    <img src="sah1.jpg" width="32%" height="60%" style="margin: 3px;">
+    <img src="images.jpg" width="33%" height="60%" style="margin: 3px;">
+    <img src="download.jpg" width="32%" height="60%" style="margin: 3px;">
+    
+    <hr style="background: crimson; height: 2px;  border:0"/>
+    
+   
+ 
+  <!--<hi style="margin: 0px;"></hi> : لعدم إضافة الهامش بالأسفل والاعلى-->
+
+ </header>
+
+ <aside>
+     <center>
+        <hr style="background:black; height: 2px;  border:0"/>
+     <h1 style="margin: 0px; background: aquamarine;">About Sahara Tourism</h1>
+     <hr style="background:black; height: 2px;  border:0"/> 
+     <pre>Sahara Tourism is a trusted platform</pre>
+     <pre> where travelers looking for an unique experience</pre>
+    <pre> can choose and book incredible </pre>
+<pre> Sahara Tours, excursions and activities</pre>
+<pre> in the Sahara desert or nights</pre>
+<pre>in our  Luxury Desert Camp.</pre>
+
+<pre> You can learn more about our story here.</pre>
+<pre> We´ve carefully selected multilingual local guides.</pre>
+<pre> All our guides are berbers that will surely give you</pre>
+<pre> a deep insight of the sahara culture.</pre>
+<pre> We believe that travelling is all about learning</pre>
+<pre> and growing so we work to perform at our best</pre>
+<pre> and give our turists lifetime experiences.</pre>
+<pre>If you want to hit Sahara’s highlights,</pre>
+<pre> this is your adventure.</pre>
+<hr style="background:black; height: 2px;  border:0"/>
+<hr style="background:black; height: 2px;  border:0"/>
+  <h3 style="margin: 0px; background: aquamarine;">What is your comment ?</h3>
+  <hr style="background:black; height: 2px;  border:0"/>
+  
+<table>
+    <tr>
+        
+        <td><input type="radio" name="degree">Weak</td>
+        <td>
+            
+<meter  min="0" max="100" value="40" low="49" high="51" optimum="100" ></meter>
+
+</td>
+</tr>
+<tr>
+    <td><input type="radio" name="degree">Medium</td>
+    <td>
+    <meter min="0" max="100" value="50" low="49" high="51" optimum="100"></meter>
+</td>
+</tr>
+    <tr>
+        <td><input type="radio" name="degree">Strong</td>
+        <td>
+        <meter min="0" max="100" value="75" low="49" high="51" optimum="100"></meter>
+    </td>
+    </tr>
+    
+    </table>
+    <hr style="background:black; height: 2px;  border:0"/>
+    <hr style="background:black; height: 2px;  border:0"/>
+  <h3 style="margin: 0px; background: aquamarine;">Write your comment ?</h3>
+  <hr style="background:black; height: 2px;  border:0"/>
+    
+
+    <form method="GET">
+        <table>
+            <tr>
+                <td>
+     <label>Email</label> <span style="color: red;">*</span>
+  </td>
+  <td>
+      <input type="email" placeholder="poste gmail" minlengh="10" maxlengh="20" required/>
+  </td>
+     </tr>
+            <tr>
+              <td>
+      <label> Password</label> <span style="color: red;">*</span>
+     
+  </td>
+   </td>
+  <td>
+      <input type="password" placeholder="code" minlengh="4" maxlengh="10" required/>
+  </td>
+  </tr>
+  <!--
+      name+value in select options
+      is for indicate the database
+      in the server we want send to
+      like php,javascript or c#...
+  -->
+  <tr>
+      <td>
+        <select name="الدولة" required>
+            <option value="">Choose a Country</option>
+            <option value="هولندا">Netherlands</option>
+            <option value="تركيا">Turky</option>
+            <option value="بريطانيا">United Nations</option>
+            <option value="فرنسا" >France</option>
+            <option value="إسبانيا">Spain</option>
+           
+            
+        </select>
+  </td>
+</tr>
+  
+
+  <tr>
+      <td>
+        <textarea autofocus rows="6" cols="20" maxlength="60" aria-placeholder="write your description">
+        
+        </textarea>
+  </td>
+</tr>
+    
+  
+       <tr>
+           <td><button type="submit">Sending</button></td>
+           
+       </tr>
+  
+     
+         
+         
+        
+    </table>
+      <br>
+      <br>
+    
+    
+     
+    </form>
+
+    <hr style="background:black; height: 2px;  border:0"/>
+    <br> 
+    <center> 
+    <marquee>
+         
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRvknLXLTMpl8J3Qah-_ujOjOfLqmd2PO3QEg&usqp=CAU" title="SAHARA TOURISM">
+    </marquee>
+</center>
+<br>
+
+
+    <hr style="background:black; height: 2px;  border:0"/> 
+</center>
+
+ </aside>
+
+ <main>
+     <article>
+        <center>
+            <hr style="background: crimson; height: 2px;  border:0"/>
+         <a href="https://saharaatlastours.com/" target="_blank"><h2 class="title_class h1_class">Sahara Tours</h2></a>
+         <hr style="background: crimson; height: 2px;  border:0"/>
+       <iframe src="https://saharaatlastours.com/" width="98%" height="280"></iframe>
+       <hr style="background: crimson; height: 2px;  border:0"/>
+    </center>
+        
+     </article>
+    
+     <article>
+        <center>
+            <hr style="background: crimson; height: 2px;  border:0"/>
+            
+            <a href="http://www.morocco-desert-camp.com/" target="_blank"><h2 class="title_class h1_class">Desert Camps</h2></a>
+        
+            <hr style="background: crimson; height: 2px;  border:0"/>
+            <iframe src="http://www.morocco-desert-camp.com/" width="98%" height="280"></iframe>
+            <hr style="background: crimson; height: 2px;  border:0"/>
+    </center>
+       
+    </article>
+   
+    <article>
+        <center>
+            <hr style="background: crimson; height: 2px;  border:0"/>
+        
+            <h2 class="title_class h1_class">Sahara Beach</h2>
+        
+           
+            <hr style="background: crimson; height: 2px;  border:0"/>
+        </center>
+            
+            <img src="desert beach.jpg" width="32%" height="280" title="Sahara Swiming Pool" style="margin: 3px;"/> 
+          
+       
+            <img src="sahbeach.jpg" width="32%" height="280" title="Sahara Beach" style="margin: 3px;"/>
+           
+       
+            <img src="sahsurf.png" width="32%" height="280" title="Sahara Surfing" style="margin: 3px;"/>
+            
+            <hr style="background: crimson; height: 2px;  border:0;"/>
+        
+        
+    </article>
+
+ </main>
+ <footer>
+    <hr style="background: gold; height: 8px;  border:0"/>
+    <fieldset>
+        
+        <legend><h3>Contact Informations</h3></legend>
+        
+          <ul>
+            <li><strong><bdi>البريد الإلكتروني</bdi> : account@hotmail.com</strong></li>
+            <hr style="background: black; height: 1px; border:0"/>
+          <li><strong>GSM-<bdi>الهاتف</bdi> : 012345678910</strong></li>
+          <hr style="background: black; height: 1px;  border:0"/>
+          <li><strong>Adress-<bdi>العنوان</bdi> : Big street Cigma nr 874, Amriza</strong></li>
+          <hr style="background: black; height: 1px;  border:0"/>
+        </ul>
+      
+    </fieldset>
+     <center>
+      
+   <h4 style="background: gold;"> Copyright &#169 2020 Sahara Tourism All Rights Reserved</h4>
+   
+</center>   
+   
+
+ </footer>
+
+</div>
+<br>  
+  
+</body>
+</html>
